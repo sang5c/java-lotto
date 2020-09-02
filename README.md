@@ -86,3 +86,24 @@
     - [X] 5개일치 = 3등
 - [X] bug: 로또 번호 정렬 (Set -> List)
 - [X] 모든 원시값 제거
+
+---
+
+### [step3 피드백](https://github.com/next-step/java-lotto/pull/485)
+- [ ] [좋은 객체의 7가지 덕목 읽기](https://codingnuri.com/seven-virtues-of-good-object/)
+    1. 객체가 현실 세계에 존재한다
+    2. 객체가 계약에 따라 동작한다
+    3. 객체가 고유하다
+    4. 객체가 불변적이다
+    5. 객체의 클래스에 정적 멤버가 없다
+    6. 객체의 이름이 직명을 나타내지 않는다
+    7. 객체의 클래스가 Final이나 Abstract다
+- [ ] lottoNumbers List 대신 Set
+- [ ] sortedList 대신 TreeSet
+- [ ] 똑같은 기능의 객체를 매번 생성하기보다는 객체 하나를 재사용 (rangeClosed)
+- [ ] LottoMarket의 LottoMachine 생성자 의존성 주입으로 결합도 낮추기
+- [ ] LottoSeller 클래스명을 명확하게
+- [ ] Lottos 생성자에서 주소값 그대로 사용시 문제점
+- [ ] computeIfPresent 알아보고 적용하기
+- [ ] Rank에서 SECOND가 보너스번호를 포함하는 것을 코드로 나타내기.
+- [ ] WinningLottoTest 인스턴스 변수 접근 제한자 private으로 수정하기
